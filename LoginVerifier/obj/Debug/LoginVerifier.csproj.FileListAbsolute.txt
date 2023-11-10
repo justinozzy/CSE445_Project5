@@ -1,0 +1,6 @@
+D:\VisualStudio Projects\CSE445_Project5\LoginVerifier\bin\Debug\LoginVerifier.dll
+D:\VisualStudio Projects\CSE445_Project5\LoginVerifier\bin\Debug\LoginVerifier.pdb
+D:\VisualStudio Projects\CSE445_Project5\LoginVerifier\obj\Debug\LoginVerifier.csproj.AssemblyReference.cache
+D:\VisualStudio Projects\CSE445_Project5\LoginVerifier\obj\Debug\LoginVerifier.csproj.CoreCompileInputs.cache
+D:\VisualStudio Projects\CSE445_Project5\LoginVerifier\obj\Debug\LoginVerifier.dll
+D:\VisualStudio Projects\CSE445_Project5\LoginVerifier\obj\Debug\LoginVerifier.pdb
