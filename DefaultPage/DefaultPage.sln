@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34018.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DefaultPage", "DefaultPage.csproj", "{B4CF81E9-67E7-47A7-BFEC-31C3751EECA5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoginVerifier", "..\LoginVerifier\LoginVerifier.csproj", "{87F755E9-42D1-4898-B398-8D0CE58D5365}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B4CF81E9-67E7-47A7-BFEC-31C3751EECA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4CF81E9-67E7-47A7-BFEC-31C3751EECA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4CF81E9-67E7-47A7-BFEC-31C3751EECA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4CF81E9-67E7-47A7-BFEC-31C3751EECA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87F755E9-42D1-4898-B398-8D0CE58D5365}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87F755E9-42D1-4898-B398-8D0CE58D5365}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87F755E9-42D1-4898-B398-8D0CE58D5365}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87F755E9-42D1-4898-B398-8D0CE58D5365}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2FF12D91-4D24-4553-9498-CBE7CA329DB9}
+	EndGlobalSection
+EndGlobal

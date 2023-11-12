@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stockList>
+  <stock>
+    <name>SCSC</name>
+    <price>10</price>
+  </stock>
+  <stock>
+    <name>UBSI</name>
+    <price>15.15</price>
+  </stock>
+  <stock>
+    <name>BRLI</name>
+    <price>12.48</price>
+  </stock>
+  <stock>
+    <name>EDIT</name>
+    <price>11.44</price>
+  </stock>
+  <stock>
+    <name>SGA</name>
+    <price>13.26</price>
+  </stock>
+  <stock>
+    <name>HUMA</name>
+    <price>14.56</price>
+  </stock>
+  <stock>
+    <name>PEPG</name>
+    <price>11.22</price>
+  </stock>
+  <stock>
+    <name>WW</name>
+    <price>12.48</price>
+  </stock>
+  <stock>
+    <name>DSWL</name>
+    <price>14.14</price>
+  </stock>
+  <stock>
+    <name>ARTNA</name>
+    <price>15.6</price>
+  </stock>
+</stockList>
