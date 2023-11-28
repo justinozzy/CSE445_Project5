@@ -5,7 +5,6 @@
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <div class="container">
         <div class="stock-section">
-            <h2>
                 <h2>Stock Build Service</h2>
             <p>Using the Polygon.io API, get 500 random stock tickers from NASDAQ</p>
             <p>This is a web user control that creates a stock build. The ascx file for this can be found in the "UserControls" folder.
