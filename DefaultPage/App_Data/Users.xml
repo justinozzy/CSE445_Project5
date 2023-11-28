@@ -1,13 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Users>
   <User type="member">
-    <username>member</username>
+    <name>member</name>
+	<email>member@test.com</email>
     <password>cGFzc3dvcmQ=</password>
   </User>
   <User type="member">
     <name>bob</name>
     <email>bob@mail.com</email>
-    <password>NzY1NDMyMQ==</password>
+    <password>cGFzc3dvcmQ=</password>
   </User>
   <User type="member">
     <name>Robby</name>

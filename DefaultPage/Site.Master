@@ -92,6 +92,24 @@
                                 });
                             });
                             </script>
+                            <script type="text/javascript">
+                                function checkLogin() {
+                                    // Perform client-side checks if needed
+
+                                    // Call the server-side function to check if the user is logged in
+                                    var isLoggedIn = <%= Session["IsLoggedIn"] %>;
+
+                                    // If the user is logged in, allow the redirection
+                                    if (isLoggedIn) {
+                                        return true;
+                                    } else {
+                                        // If the user is not logged in, prevent the redirection
+                                        alert("Please log in first.");
+                                        return false;
+                                    }
+                                }
+                            </script>
+
                         </li>
                     </ul>
                     <!--ul class="navbar-nav flex-grow-1">

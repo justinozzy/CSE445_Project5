@@ -96,7 +96,7 @@ namespace DefaultPage.UserControls
 
         private bool VerifyReCaptcha(string response)
         {
-            string secretKey = "6Lee7h4pAAAAANyO8FikXM5rMU1j72Wxs-ZCLSZf"; // Replace with your reCAPTCHA secret key
+            string secretKey = "6Lee7h4pAAAAANyO8FikXM5rMU1j72Wxs-ZCLSZf";
 
             using (WebClient client = new WebClient())
             {

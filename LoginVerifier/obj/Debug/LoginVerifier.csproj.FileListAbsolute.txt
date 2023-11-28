@@ -10,3 +10,9 @@ C:\Users\jetos\Desktop\CSE445_Project5-main\LoginVerifier\obj\Debug\LoginVerifie
 C:\Users\jetos\Desktop\CSE445_Project5-main\LoginVerifier\obj\Debug\LoginVerifier.csproj.CoreCompileInputs.cache
 C:\Users\jetos\Desktop\CSE445_Project5-main\LoginVerifier\obj\Debug\LoginVerifier.dll
 C:\Users\jetos\Desktop\CSE445_Project5-main\LoginVerifier\obj\Debug\LoginVerifier.pdb
+C:\Users\jetos\Desktop\project5_master\LoginVerifier\bin\Debug\LoginVerifier.dll
+C:\Users\jetos\Desktop\project5_master\LoginVerifier\bin\Debug\LoginVerifier.pdb
+C:\Users\jetos\Desktop\project5_master\LoginVerifier\obj\Debug\LoginVerifier.csproj.AssemblyReference.cache
+C:\Users\jetos\Desktop\project5_master\LoginVerifier\obj\Debug\LoginVerifier.csproj.CoreCompileInputs.cache
+C:\Users\jetos\Desktop\project5_master\LoginVerifier\obj\Debug\LoginVerifier.dll
+C:\Users\jetos\Desktop\project5_master\LoginVerifier\obj\Debug\LoginVerifier.pdb

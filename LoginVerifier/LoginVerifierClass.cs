@@ -24,7 +24,7 @@ namespace LoginVerifier
                 xmlDoc.Load(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "App_Data/Users.xml"));
 
                 //Find all nodes with matching usernames
-                XmlNodeList usernameNodes = xmlDoc.SelectNodes($"/Users/User[username='{username}']");
+                XmlNodeList usernameNodes = xmlDoc.SelectNodes($"/Users/User[name='{username}']");
 
                 if (usernameNodes.Count > 0)
                 {
