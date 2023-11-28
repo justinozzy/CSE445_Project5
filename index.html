@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+<style>
+    table,
+    th,
+    td {
+        border: 1px solid black;
+    }
+</style>
+
+<body>
+    <table style="width:100%">
+        <tr>
+            <td><b>Directory Table:</b> This table outlines the services and components that have been developed for the
+                Stock Broker Application.</td>
+        </tr>
+		<tr>
+			<td><b>Deployment Address for A7:</b><a
+                    href="http://webstrar51.fulton.asu.edu/page9/">http://webstrar51.fulton.asu.edu/page9/</a></td>
+		</tr>
+        <tr>
+            <td><b>Deployment Address for A6:</b><a
+                    href="http://webstrar51.fulton.asu.edu/page10/">http://webstrar51.fulton.asu.edu/page10/</a></td>
+        </tr>
+        <tr>
+            <td><b>Team Number:</b> 51</td>
+        </tr>
+    </table>
+    <br>
+    <table style="width:100%">
+        <tr>
+            <th>Name</th>
+            <th>Contribution Percentage</th>
+            <th>Pages/Components/Files Responsible For</th>
+        </tr>
+        <tr>
+            <td>Justin Oswald</td>
+            <td>33.33%</td>
+            <td>Default.aspx, Navigation bar, Login button, GPTService</td>
+        </tr>
+        <tr>
+            <td>Abhisekhar Bharadwaj Gandavarapu</td>
+            <td>33.33%</td>
+            <td>Member.aspx, Stock Build and Quote Service </td>
+        </tr>
+        <tr>
+            <td>Likhit Yarramsetti</td>
+            <td>33.33%</td>
+            <td>Staff.aspx, NewsFocus Service</td>
+        </tr>
+    </table>
+    <br>
+    <table style="width:100%">
+        <tr>
+            <th>Provider Name</th>
+            <th>Page and component type, e.g., aspx, DLL, SVC, etc.</th>
+            <th>Component description: What does the component do? What are input/parameter and output/return value?
+            </th>
+            <th>Actual resources and methods used to implement the component and where this component is used.</th>
+        </tr>
+        <tr>
+            <td>
+                Justin Oswald
+            </td>
+            <td>
+                Default page: ASPX with GPT support
+            </td>
+            <td>
+                Public default page that users see when they first visit the page. Will have all the information about
+                the website (assignment 7) and navigation to other pages laid out in it.
+            </td>
+            <td>
+                GUI for layout and C# code for controls and event handling
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Justin Oswald
+            </td>
+            <td>
+                DLL
+            </td>
+            <td>
+                Takes in a username and password, hashes the password, and confirms that the hashed password matches the
+                saved hashed password in the Users.xml file. Throws a 1 for success, 0 for user mismatch, and -1 for
+                error.
+            </td>
+            <td>
+                Local C# code
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Justin Oswald
+            </td>
+            <td>
+                REST service
+            </td>
+            <td>
+                Asks a user for input and will return a response using ChatGPT API. Has a prompt to act like a stock
+                support service AI.
+            </td>
+            <td>
+                The OpenAI library in NuGet and OpenAI’s API (https://platform.openai.com/) are used in this service to
+                get responses + C# code to wrap.
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Justin Oswald
+            </td>
+            <td>
+                Global.asax
+            </td>
+            <td>
+                Determines if a user is logged in and flags a variable that will change pages based on the value of it.
+                Will check cookies as well to determine.
+            </td>
+            <td>
+                C# code in the Global.asax file.
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Justin Oswald
+            </td>
+            <td>
+                Cookie
+            </td>
+            <td>
+                Saves a user's login when they check the stay logged in button on the login so they don't have to re-do
+                it everytime they come back.
+            </td>
+            <td>
+                C# code and browser cookies.
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Abhisekhar Bharadwaj Gandavarapu
+            </td>
+            <td>
+                <a href="http://webstrar51.fulton.asu.edu/page2/"> User Controls</a>
+            </td>
+            <td>
+                Developed User controls for Stock build and Stock quote
+            </td>
+            <td>
+                C# Code behind GUI. Linked to the Member page
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Abhisekhar Bharadwaj Gandavarapu
+            </td>
+            <td>
+                <a href="http://webstrar51.fulton.asu.edu/page2/"> XML file Storage</a>
+            </td>
+            <td>
+                Stores Stock Build data by taking an input for the limit of stocks to show in the build, compiles the
+                data in an XML file, and stores it in the App_Data folder
+            </td>
+            <td>
+                Linked to Member Page and stores User's stock build data
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Abhisekhar Bharadwaj Gandavarapu
+            </td>
+            <td>
+                <a href="http://webstrar51.fulton.asu.edu/page2/"> Cookie</a>
+            </td>
+            <td>
+                Saves the user's stock build and stock quote displayed on the web app
+            </td>
+            <td>
+                GUI design and C# code behind GUI using HTTP cookies library. It is linked to the Member page such that
+                stock build data and stock quote data are saved.
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Likhit Yarramsetti
+            </td>
+            <td>
+                <a href="http://webstrar51.fulton.asu.edu/page8/"> Cookie</a>
+            </td>
+            <td>The NewsFocus Component uses a cookie to store "Recently searched topics" state.</td>
+            <td>
+                C# Code behind NewsFocus GUI. Linked to the Staff page
+            </td>
+        </tr><tr>
+            <td>
+                Likhit Yarramsetti
+            </td>
+            <td><a href="http://webstrar51.fulton.asu.edu/page8/"> XML File Storage</a></td><td>Registration component in Staff page stores registered Staff users in a "Staff.xml" file stored in App_Data folder.</td><td>C# code linked to Staff Page.</td>
+        </tr>
+
+
+    </table>
+</body>
+
+</html>
