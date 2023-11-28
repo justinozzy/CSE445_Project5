@@ -49,6 +49,7 @@
                         <li class="nav-item"><a class="nav-link" runat="server" href="~/">Default</a></li>
                         <li class="nav-item"><a class="nav-link" runat="server" href="~/Member">Member</a></li>
                         <li class="nav-item"><a class="nav-link" runat="server" href="~/Staff">Staff</a></li>
+                        <li class="nav-item"><a class="nav-link" runat="server" href="~/SignUp">Signup</a></li>
                         <li class="nav-item"><a class="nav-link" runat="server" href="http://webstrar51.fulton.asu.edu/">Directory Table</a></li>
                         <li class="nav-item align-items-center" style="margin-left:100px;"><asp:Label runat="server" class="nav-link" ID="StatusLabel" ForeColor="White"></asp:Label></li>
                         <li class="nav-item align-items-center" style="margin-top:30px;">

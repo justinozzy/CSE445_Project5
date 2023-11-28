@@ -1,7 +1,17 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Users>
-	<User type="member">
-		<username>member</username>
-		<password>cGFzc3dvcmQ=</password>
-	</User>
+  <User type="member">
+    <username>member</username>
+    <password>cGFzc3dvcmQ=</password>
+  </User>
+  <User type="member">
+    <name>bob</name>
+    <email>bob@mail.com</email>
+    <password>NzY1NDMyMQ==</password>
+  </User>
+  <User type="member">
+    <name>Robby</name>
+    <email>Robby@mail.com</email>
+    <password>MTIzNDU2</password>
+  </User>
 </Users>
