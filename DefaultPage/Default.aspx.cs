@@ -96,9 +96,12 @@ namespace DefaultPage
         {
             try
             {
+                Button clickedButton = sender as Button;
+
                 //https://localhost:44321/api/GPTSupport?userMessage=
                 Uri baseUri = new Uri("http://webstrar51.fulton.asu.edu/page3/api/");
-                string message = UserMessageBox.Text;
+
+                string message = clickedButton.ID == "gptButton2" ? gptQuestion2.Text : UserMessageBox.Text;
                 UriTemplate uriTemplate = new UriTemplate("GPTSupport?userMessage={message}");
                 Uri completeUri = uriTemplate.BindByPosition(baseUri, message);
                 WebClient channel = new WebClient();
@@ -107,7 +110,19 @@ namespace DefaultPage
                 ServicePointManager.ServerCertificateValidationCallback = delegate { return true; };
 
                 string returnString = channel.DownloadString(completeUri);
-                GPTResponseArea.Text = returnString;
+
+                if (clickedButton != null)
+                {
+
+                    if (clickedButton.ID == "gptButton2")
+                    {
+                        gptResponse2.Text = returnString;
+                    }
+                    else if (clickedButton.ID == "GPTButton")
+                    {
+                        GPTResponseArea.Text = returnString;
+                    }
+                }
             }
             catch (Exception ex)
             {

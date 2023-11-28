@@ -1,7 +1,39 @@
 ﻿<%@ Page Title="Home Page" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="DefaultPage._Default" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
+    <div>
+        <h2>Welcome to our Stock Broker application!</h2>
+        <p>
+            Here you can learn about current stock builds based on how many stocks you want to gather and look at prices for specific stocks if you know what you're looking for.
+            If you ever had any questions about stocks and get confused with the terminology feel free to ask our GPTSupport bot for more help about any questions and concerns
+            you might have. You can also get the latest news articles about any topic you may be interested in, so make sure to research your stocks with our NewsFocus service!
+        </p>
+        <p>
+            Users can signup for our services with the sign-up button above which will allow you to access our member pages and get the latest information in news and stock builds.
+            After signing up make sure to login afterwards and you will have access to all of our services.
+        </p>
+        <br />
+        <br />
+        <asp:Label runat="server"><b>GPTSupport</b></asp:Label>
         <div>
+            <asp:TextBox ID="gptQuestion2" placeholder="Enter your question" runat="server"></asp:TextBox>
+            <br />
+            <br />
+            <asp:Button ID="gptButton2" runat="server" Text="Send Prompt" OnClick="GPTButton_Click" CssClass="item_spacing"/>
+            <br />
+            <br />
+            <asp:TextBox id="gptResponse2" TextMode="MultiLine" Rows="4" Columns="50" runat="server"></asp:TextBox>
+        </div>
+    </div>
+    
+    <br /><br /><br /><br /><br /><br />
+    <h4>For Graders - TryIt Page Below</h4>
+    <p>
+        For grading of our application please look at the TryIt pages that are also placed on each respective page for each team member (Default, Member, and Staff). There are
+        instructions included for each of the services which are also linked within the service directory table which you can access on the navbar.
+    </p>
+    <hr />
+    <div>
             <p>
                 <b>Login Button</b> - Asks a user for their username and password and confirms their login information through an XML file.
                 The current user logged in will be saved in a cookie and the way to test this is to check the save login information box, close your browser, and reopen this page.

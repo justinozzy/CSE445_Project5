@@ -15,6 +15,33 @@ namespace DefaultPage
     {
 
         /// <summary>
+        /// gptQuestion2 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox gptQuestion2;
+
+        /// <summary>
+        /// gptButton2 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button gptButton2;
+
+        /// <summary>
+        /// gptResponse2 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox gptResponse2;
+
+        /// <summary>
         /// loginStatus control.
         /// </summary>
         /// <remarks>
