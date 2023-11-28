@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yarramsetti_A6_Components", "Yarramsetti_A6_Components\Yarramsetti_A6_Components.csproj", "{1F90F673-3B2E-4DEC-9AD0-0197E71B618A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewsFocusService", "NewsFocusService\NewsFocusService.csproj", "{70D40D7E-9EDC-4AE2-A4EF-FAFA66F2EEF3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1F90F673-3B2E-4DEC-9AD0-0197E71B618A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F90F673-3B2E-4DEC-9AD0-0197E71B618A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F90F673-3B2E-4DEC-9AD0-0197E71B618A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F90F673-3B2E-4DEC-9AD0-0197E71B618A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70D40D7E-9EDC-4AE2-A4EF-FAFA66F2EEF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70D40D7E-9EDC-4AE2-A4EF-FAFA66F2EEF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70D40D7E-9EDC-4AE2-A4EF-FAFA66F2EEF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70D40D7E-9EDC-4AE2-A4EF-FAFA66F2EEF3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B6E4003A-3D3B-4C6F-84DD-183B148E516D}
+	EndGlobalSection
+EndGlobal

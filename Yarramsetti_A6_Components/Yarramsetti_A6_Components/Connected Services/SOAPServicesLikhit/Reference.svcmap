@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="bcd614bc-cc4e-4914-baeb-1937794d17d4" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://webstrar51.fulton.asu.edu/page6/SOAPServicesLikhit.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="SOAPServicesLikhit.xsd" MetadataType="Schema" ID="8115fb0e-32a4-47b4-8985-323c03eb3da4" SourceId="1" SourceUrl="http://webstrar51.fulton.asu.edu/Page6/SOAPServicesLikhit.svc?xsd=xsd0" />
+    <MetadataFile FileName="SOAPServicesLikhit.disco" MetadataType="Disco" ID="625e24fe-6f1f-4535-a9e3-5e84fff6d60f" SourceId="1" SourceUrl="http://webstrar51.fulton.asu.edu/Page6/SOAPServicesLikhit.svc?disco" />
+    <MetadataFile FileName="Service1.wsdl" MetadataType="Wsdl" ID="3a1ce407-85e4-4ca2-a46b-2f44b3763db6" SourceId="1" SourceUrl="http://webstrar51.fulton.asu.edu/Page6/SOAPServicesLikhit.svc?wsdl" />
+    <MetadataFile FileName="SOAPServicesLikhit1.xsd" MetadataType="Schema" ID="593be6e1-141f-4cdf-bd3b-496f78853cd1" SourceId="1" SourceUrl="http://webstrar51.fulton.asu.edu/Page6/SOAPServicesLikhit.svc?xsd=xsd1" />
+    <MetadataFile FileName="SOAPServicesLikhit2.xsd" MetadataType="Schema" ID="0b27d29a-699f-4cfc-9b84-50ce66078c4a" SourceId="1" SourceUrl="http://webstrar51.fulton.asu.edu/Page6/SOAPServicesLikhit.svc?xsd=xsd2" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
